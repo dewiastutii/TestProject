@@ -5,7 +5,72 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/a"
     tools:context="com.example.rpl88.wallezz.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biodata"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorAccent3"
+        android:textSize="12pt"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:fontFamily="casual"
+            android:textColor="@color/colorAccent3"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:text=":"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:id="@+id/edtname"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:fontFamily="casual"
+            android:textColor="@color/colorAccent3"/>
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="30dp"
+            android:text=":"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="test"
+            android:id="@+id/edtadress"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:layout_gravity="center"
+        android:id="@+id/btn_simpan"
+        android:layout_marginBottom="10dp"/>
+
 
     <TextView
         android:layout_width="match_parent"
@@ -13,13 +78,17 @@
         android:text="Various Fruits"
         android:gravity="center"
         android:fontFamily="cursive"
-        android:textSize="18pt"
-        android:textColor="@color/colorAccent1"/>
+        android:textColor="@color/colorAccent3"
+        android:textSize="13pt"
+        />
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:id="@+id/rv_list">
     </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>
+
+
+

@@ -5,14 +5,14 @@
     android:orientation="vertical"
     android:layout_marginLeft="15dp"
     android:layout_marginRight="15dp"
+    android:background="@drawable/a"
     android:layout_height="wrap_content">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorAccent"
         android:fontFamily="casual"
-        android:textSize="15dp"
+        android:textSize="18dp"
         android:id="@+id/txt_title"/>
    <ImageView
        android:layout_width="wrap_content"
@@ -22,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="casual"
+        android:textColor="@color/colorAccent3"
         android:id="@+id/txt_description"/>
 
     <LinearLayout
@@ -31,14 +32,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Create_at"/>
+            android:textColor="@color/colorAccent3"
+            android:text="Create_at    "/>
         <TextView
             android:layout_width="15dp"
             android:layout_height="15dp"
+            android:textColor="@color/colorAccent3"
             android:text=":"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent3"
             android:id="@+id/txt_create"/>
     </LinearLayout>
     <LinearLayout
@@ -48,16 +52,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Update_at"/>
+            android:textColor="@color/colorAccent3"
+            android:text="Update_at   "/>
         <TextView
             android:layout_width="15dp"
             android:layout_height="15dp"
+            android:textColor="@color/colorAccent3"
             android:text=":"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent3"
             android:id="@+id/txt_update"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="10dp"/>
     </LinearLayout>
 
 </LinearLayout>
